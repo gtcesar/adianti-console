@@ -1,0 +1,17 @@
+{
+  "name": "gtcesar/adianti-console",
+  "description": "Console to generate forms, listings, and CRUDs for the Adianti Framework",
+  "type": "library",
+  "require": {
+    "php": ">=7.4",
+    "symfony/console": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AdiantiConsole\\": "src/"
+    }
+  },
+  "bin": [
+    "bin/adianti-console"
+  ]
+}
